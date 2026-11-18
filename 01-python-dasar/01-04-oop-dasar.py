@@ -50,12 +50,12 @@ class Dompet:
 
     def history(self, status, value):
         self.transaksi.append({"status": status, "value" : value, "saldo_akhir" : self.saldo})
-      
+
     def show_history(self):
         for i in self.transaksi:
             print(i["status"], "|",i["value"], "|", i["saldo_akhir"])
             
-          
+    
     def topup(self,value):
         if value > 0:
             self.saldo += value
