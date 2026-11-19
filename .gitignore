@@ -1,0 +1,25 @@
+# Python & Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Django
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Environment & Secrets
+.env
+.env.local
+
+# JavaScript / React (Fase 3 nanti)
+node_modules/
+dist/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
